@@ -32,6 +32,12 @@ Run a Flask app:
     `export FLASK_APP=web_app` # one-time thing, to set the environment
     `flask run`
 
-    Data Science for the N00b in you
+My example:
+Greetings from the DSPT5 Lambda Library
+
+These are your current checked out materials:
+
+    Data Science for the N00b in You
     Resume Writing 101
     Laundry Code: Writing Code that is Clean and DRY
+
