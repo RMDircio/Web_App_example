@@ -1,12 +1,10 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 home_routes = Blueprint('home_routes', __name__)
 
 @home_routes.route('/')
 def index():
-    print('Visiting the home page')
-    x = 2 + 3
-    return f'Hello World! {x}'
+    return render_template('books.html')
 
 @home_routes.route('/about')
 def about():

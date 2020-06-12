@@ -131,3 +131,6 @@ dmypy.json
 # stuff I added- database items
 migrations
 *.db
+TODOs.md
+
+
